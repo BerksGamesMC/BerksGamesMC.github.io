@@ -1,0 +1,111 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  font-family: Arial, sans-serif;
+}
+
+.top-banner {
+  width: 100%;
+  background-color: #3b82f6;
+  padding: 20px 40px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 15px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  color: white;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.yt-icon {
+  color: white;
+  font-size: 1.8rem;
+  transition: 0.2s ease;
+}
+
+.yt-icon:hover {
+  color: #ff4d4d;
+  transform: scale(1.1);
+}
+
+.main {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 50px;
+  gap: 40px;
+}
+
+.button-group {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.steal-group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+#downloadBtn, #growBtn {
+  padding: 16px 32px;
+  font-size: 1.4rem;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  box-shadow: 0 0 15px rgba(139, 92, 246, 0.5);
+}
+
+#downloadBtn {
+  background-color: #8b5cf6;
+}
+
+#downloadBtn:hover {
+  background-color: #7c3aed;
+}
+
+#downloadBtn:active {
+  transform: scale(0.95);
+}
+
+#growBtn {
+  background-color: #34d399; /* Yeşil ton */
+}
+
+#growBtn:hover {
+  background-color: #2bb673;
+}
+
+#growBtn:active {
+  transform: scale(0.95);
+}
+
+.button-desc {
+  margin-top: 8px;
+  font-size: 0.95rem;
+  color: #6b7280;
+  align-self: flex-start; /* sola hizala */
+  margin-left: 4px;       /* biraz sola kaydır */
+}
+
+.grow-garden-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.coming-soon {
+  margin-top: 6px;
+  font-size: 0.9rem;
+  color: #6b7280;
+}
